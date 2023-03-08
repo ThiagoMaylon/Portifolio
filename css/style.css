@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap');
+
+/* cores
+#373645
+#3C3B78
+#101112
+#332A21
+#453C36
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Roboto, sans-serif;
+}
+.mensagem::after{
+    content: '|';
+    margin-left: 3px;
+    animation: blink 0.5s infinite;
+}
+@keyframes blink {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+header{
+    height: 100px;
+    background-color: #101112;
+}
+header .container-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1300px;
+    height: 100%;
+    margin: auto;
+}
+header .container-header .logo-portifolio h1{
+    color: #FFF;
+    font-weight: 500;
+}
+header .container-header .logo-portifolio span{
+    color: #3C3B78;
+}
+header .container-header .header-menu nav ul{
+     display: flex;
+     align-items: center;
+     gap: 20px;
+     list-style-type: none;
+}
+header .container-header .header-menu nav ul a{
+    text-decoration: none;
+    color: #FFF;
+    transition: all 0.5s linear;
+}
+header .container-header .header-menu nav ul a:hover{
+    color: #3C3B78;
+}
+.menu{
+    display: none;
+}
+
+main{
+    height: calc(100vh - 100px);
+    background-color: #101112;
+    color: #FFF;
+}
+main .container-main{
+    margin: auto 0 auto 40px;
+    padding-top: 40px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+
+}
+main .container-main .text1{
+    font-size: 27px;
+}
+main .container-main h2{
+    font-size: 75px;
+}
+main .container-main .text2{
+    font-size: 40px;
+    margin: 5px 0;
+}
+main .container-main .text2 span{
+    color: #3C3B78;
+}
+main .container-main .main-contet-left a{
+    display: inline-block;
+    background: #3C3B78;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid #3C3B78;
+    text-decoration: none;
+}
+main .container-main .main-contet-left a:hover{
+    background-color: transparent;
+    color: #3C3B78;
+}
+main .container-main .main-content-rigth{
+    margin-left: 80px;
+}
+main .container-main img{
+    max-width: 400px;
+}
