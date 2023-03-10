@@ -116,3 +116,68 @@ main .container-main .main-content-rigth{
 main .container-main img{
     max-width: 400px;
 }
+
+/*                      ABOUT                  */
+
+.about{
+    padding: 100px 0;
+
+}
+.about .container-about{
+    width: 1330px;
+    padding: 0 80px;
+    margin: auto;
+    
+}
+.about .container-about h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+}
+
+.about .container-about .content-about{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.about .container-about .content-about .content-about-left{
+    width: 45%;
+}
+.about .container-about .content-about .content-about-left img{
+    width: 400px;
+    height: 400px;
+    border-radius: 6px;
+}
+.about .container-about .content-about .content-about-right{
+    max-width: 55%;
+
+} .about .container-about .content-about .content-about-right p{
+    text-align: justify;
+}
+.about .container-about .content-about .content-about-right .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.about .container-about .content-about .content-about-right .text > span{
+    color: #3C3B78;
+}
+.about .container-about .content-about .content-about-right a{
+    display: inline-block;
+    background: #3C3B78;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid #3C3B78;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.about .container-about .content-about .content-about-right a:hover{
+    background-color: transparent;
+    color: #3C3B78;
+}
