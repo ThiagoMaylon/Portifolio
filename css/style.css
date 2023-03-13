@@ -19,6 +19,9 @@ html{
 body{
     font-family: Roboto, sans-serif;
 }
+svg{
+    
+}
 .mensagem::after{
     content: '|';
     margin-left: 3px;
@@ -105,6 +108,7 @@ main .container-main .main-contet-left a{
     border-radius: 6px;
     border: 2px solid #3C3B78;
     text-decoration: none;
+    transition: 0.5s;
 }
 main .container-main .main-contet-left a:hover{
     background-color: transparent;

@@ -1,0 +1,89 @@
+/*                    MENU RESPONSIVO          */
+@media (max-width: 1100px) {
+    header .container-header{
+        margin: 0 10px;
+    }
+}
+@media (max-width: 650px) {
+    header .container-header .header-menu nav{
+        display: none;
+    }
+    header .container-header .header-menu .menu{
+        display: block;
+        color: #fff;
+        font-size: 50px;
+        cursor: pointer;
+    }
+}
+
+/*                   MAIN RESPONSIVO           */
+@media (max-width: 1076px) {
+    main .container-main .text1{
+        font-size: 25px;
+    }
+    main .container-main h2{
+        font-size: 65px;
+    }
+    main .container-main .text2{
+        font-size: 30px;
+        margin: 5px 0;
+    }
+    main .container-main .main-content-rigth{
+        margin-left: 70px;
+    }
+    main .container-main img{
+        max-width: 350px;
+    }
+}
+@media (max-width: 909px) {
+    main .container-main .main-content-rigth{
+        display: none;
+    }
+    main .container-main img{
+        display: none;
+    }
+
+    main .container-main .text1{
+
+        font-size: 30px;
+    }
+    main .container-main h2{
+        font-size: 75px;
+    }
+    main .container-main .text2{
+        font-size: 40px;
+        margin: 5px 0;
+    }
+}
+@media (max-width: 600px) {
+    main .container-main{
+        margin: auto 0 auto 20px;
+        padding-top: 90px;
+    
+    }
+    main .container-main .text1{
+        font-size: 25px;
+    }
+    main .container-main h2{
+        font-size: 60px;
+    }
+    main .container-main .text2{
+        font-size: 30px;
+        margin: 5px 0;
+    }
+}
+@media (max-width: 448px){
+    main .container-main{
+        margin: auto 0 auto 10px;
+    }
+    main .container-main .text1{
+        font-size: 25px;
+    }
+    main .container-main h2{
+        font-size: 45px;
+    }
+    main .container-main .text2{
+        font-size: 24px;
+        margin: 5px 0;
+    }
+}
